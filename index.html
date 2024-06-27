@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김호연의 포트폴리오</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/index.js" defer></script>
+</head>
+
+<body>
+    <div class="all">
+        <span class="go-top">
+            <div class="up"></div>
+        </span>
+        <header>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About me</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+        </header>
+        <main>
+            <section class="main">
+                <div class="first">
+                    <p>안녕하세요<br><span class="gray">촬영편집자</span></br>김호연입니다.</p>
+                </div>
+                <img class="camera" src="img/카메라.jpg" alt="카메라">
+
+            </section>
+
+            <section class="slide fixslide" id="slide2" data-1095="opacity:0;" data-1400="opacity:1;"
+                data-2700="opacity:1;" data-2900="opacity:0;">
+                <div class="slide-content second">
+                    <div class="mainlens">
+                        <span class="blacklens"></span>
+                        <span class="whitedot"></span>
+                        <span class="cover" data-1700="opacity:1;" data-1900="opacity:0;"></span>
+                    </div>
+                    <div class="aboutme">
+                        <div class="aboutmetext">
+                            <p>NAME : 김호연</p>
+                            <p>BIRTH : 2001.10.31</p>
+                            <p>EDUCATION : <br><br>
+                                2020.03 ~ 2024.02 <br>
+                                영진전문대 무인항공드론과 <br><br>
+                                2024.03 ~ 2024.09 <br>
+                                그린컴퓨터디자인<br>영상편집과정</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="slide fixslide" id="slide3" data-2900="opacity:0;" data-3200="opacity:1;"
+                data-5000="opacity:1" data-5100="opacity:0">
+                <div class="slide-content">
+                    <ul class="icon">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <div class="iconcover iconcover1"
+                        data-3500="top:225px; left: 225px; width:160px; height:160px; border-radius:50%"
+                        data-3900="top:450px; left:110px; width:400px; height:350px; border-radius:10%">
+                        <p data-3900="opacity:0" data-4000="opacity:1">After Effect를 사용하여 모션그래픽 관련 영상을 제작할 수 있습니다.</p>
+                    </div>
+                    <div class="iconcover iconcover2"
+                        data-3800="top:225px; left: 872px; width:160px; height:160px; border-radius:50%"
+                        data-4200="top:450px; left:750px; width:400px; height:350px; border-radius:10%">
+                        <p data-4200="opacity:0" data-4300="opacity:1">Premeire Pro를 통해 컷편집 및 영상편집을 할 수 있습니다.</p>
+                    </div>
+                    <div class="iconcover iconcover3"
+                        data-4100="top:225px; right:223px; width:160px; height:160px; border-radius:50%"
+                        data-4500="top:450px; right:110px; width:400px; height:350px; border-radius:10%">
+                        <p data-4500="opacity:0" data-4600="opacity:1">Visual Studio Code에서 HTML, CSS, Jquery를 사용하여
+                            웹사이트를 만들 수 있습니다.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- 포폴 영상링크 수정은 여기서 -->
+            <section class="slide fixslide zindex" id="slide4" data-5099="left:200%;"
+                data-5100="opacity:0; top:0; left:0;" data-5300="opacity:1;" data-5800="opacity:1;"
+                data-6000="opacity:0;" data-6001="top:200%">
+                <div class="slide-content">
+                    <div class="gallery">
+                        <div class="gallery-header">
+                            <h2>
+                                <i class="fa-solid fa-paperclip"></i><span>
+                                    Portfolio</span>
+                            </h2>
+                        </div>
+                        <ul class="gallery-collection">
+                            <li>
+                                <div class="inner">
+                                    <div class="txt">
+                                        <h3>01</h3>
+                                        <p>첫번째 영상 작업물입니다.</p>
+                                    </div>
+                                    <figure>
+                                        <video src="video/Celebrity5_김호연.mp4" loop muted></video>
+                                    </figure>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="inner">
+                                    <div class="txt">
+                                        <h3>02</h3>
+                                        <p>두번째 영상 작업물입니다.</p>
+                                    </div>
+                                    <figure>
+                                        <video src="video/vid2.mp4" loop muted></video>
+                                    </figure>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="inner">
+                                    <div class="txt">
+                                        <h3>03</h3>
+                                        <p>세번째 영상 작업물입니다.</p>
+                                    </div>
+                                    <figure>
+                                        <video src="video/vid3.mp4" loop muted></video>
+                                    </figure>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="inner">
+                                    <div class="txt">
+                                        <h3>04</h3>
+                                        <p>네번째 영상 작업물입니다.</p>
+                                    </div>
+                                    <figure>
+                                        <video src="video/vid4.mp4" loop muted></video>
+                                    </figure>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="popup">
+                            <div class="txt">
+                                <h2>01</h2>
+                                <p>project ~~</p>
+                                <button>CLOSE</button>
+                            </div>
+                            <figure>
+                                <video src="video/vid1.mp4" loop muted></video>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="slide fixslide" id="slide5" data-6000="opacity:0; top:100%" data-6300="opacity:1; top:0%">
+                <div class="circle">
+                    <div class="background"></div>
+                    <section class="mail">
+                        <section class="film">
+                            
+                            <form action="$">
+                                <h1 class="lastname">김호연</h1>
+                                <p class="lastbye">끝까지 봐주셔서 <br>감사합니다.</p>
+                                <p class="email">khy3798@gmail.com</p>
+                                <div class="kakao"></div>
+                            </form>
+                        </section>
+                    </section>
+                    
+                </div>
+            </section>
+
+        </main>
+        <footer></footer>
+    </div>
+
+    <script>
+        skrollr.init()
+    </script>
+</body>
+
+</html>

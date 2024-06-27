@@ -1,0 +1,572 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Freesentation-9Black';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li, a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+header ul li.click a{
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 15px;
+}
+
+.go-top{
+    border-radius: 100%;
+    display: block;
+    background-color: gray;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    z-index: 991231239;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.go-top:hover {
+    background-color: rgb(75, 74, 74);
+}
+
+.go-top:hover .up{
+    border-top: solid 4px rgb(197, 197, 197);
+    border-left: solid 4px rgb(197, 197, 197);
+}
+.up{
+    border-top: solid 4px rgb(80, 79, 79);
+    border-left: solid 4px rgb(80, 79, 79);
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10px,-7.5px) rotate(45deg);
+
+}
+
+p{
+    color: white;
+    font-family: 'Freesentation-9Black';
+}
+
+.gray{
+    color: gray;
+}
+
+.all{
+    width: 100%;
+    height: 100%;
+    background-color: #060606
+}
+
+header{
+    width: 50%;
+    height: 10%;
+    z-index: 999999;
+    position: fixed;
+}
+
+header>ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+header>ul>li{
+    width: 20%;
+    height: 100%;
+    line-height: 80px;
+}
+
+.first{
+    width: 50%;
+    height: 100px;
+    padding-top: 400px;
+    padding-left: 150px;
+}
+
+.first>p{
+    font-size: 3rem;
+}
+
+.fixbg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.camera{
+    position: relative;
+    bottom: 350px;
+    left: 500px;
+}
+
+section{
+    width: 100%;
+    height: 1115px;
+}
+
+.main {
+    overflow: hidden;
+}
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fixslide{
+    position: fixed;
+    height: 1110px;
+    top: 0;
+    background-color: black;
+}
+
+.mainlens{
+    background-color: white;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 200px;
+    right: 200px;
+}
+
+.aboutme{
+    position: relative;
+    background-color: gray;
+    width: 500px;
+    height: 500px;
+    border-radius: 10%;
+    top: 200px;
+    left: 200px;
+    box-shadow: 0 0 15px white;
+}
+
+.blacklens{
+    display: block;
+    background-color: black;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    background: url(../img/ho.svg)center/cover;
+    background-position-y: 40px;
+}
+/* 내 사진 넣을 곳 */
+
+
+
+.cover{
+    display: block;
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    position: relative;
+    bottom: 350px;
+    border-radius: 50%;
+}
+.aboutmetext{
+    width: 50%;
+    height: 50%;
+    margin: 60px auto;
+}
+
+.aboutmetext>p{
+    color: black;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.icon{
+    display: flex;
+    margin: 12%;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+.icon>li{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: gray;
+    text-align: center;
+    line-height: 150px;
+    box-shadow: 0 0 15px white;
+}
+.icon>li:nth-child(1){
+    background: url(../img/에펙.png)center/cover;
+}
+.icon>li:nth-child(2){
+    background: url(../img/프리미어.png)center/cover;
+}
+.icon>li:nth-child(3){
+    background: url(../img/스튜디오.jpg)center/cover;
+}
+
+.iconcover{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: gray;
+    color: white;
+    box-shadow: 0 0 15px;
+}
+
+.iconcover>p{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.iconcover1{
+    position: absolute;
+    top: 225px;
+    left: 225px;
+}
+.iconcover2{
+    position: absolute;
+    top: 225px;
+    left: 872px;
+}
+.iconcover3{
+    position: absolute;
+    top: 225px;
+    right: 223px;
+}
+
+/* video */
+.zindex{
+    z-index: 9999;
+}
+
+.gallery{
+    width: 100%;
+    height: 100vh;
+    background-color: #060606;
+    display: flex;
+}
+
+.gallery-header{
+    width: 20vw;
+    height: 100%;
+    padding: 10vh 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gallery-header h2{
+    color: white;
+    text-align: center;
+}
+
+.gallery-header h2 i{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.gallery-header p{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.gallery-collection{
+    display: flex;
+    width: 80vw;
+    height: 100%;
+    padding-top: 15vh;
+}
+
+.gallery-collection li{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 70px 40px 100px;
+    cursor: pointer;
+    opacity: 0.6;
+    position: relative;
+}
+
+.gallery-collection li::after{
+    opacity: 0%;
+    display: block;
+    background-color: gray;
+    width: 100%;
+    height: 100%;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100px;
+    transition: .5s;
+}
+
+.gallery-collection li:hover::after{
+    background-color: gray;
+    width: 100%;
+    height: 100%;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    opacity: 50%;
+}
+
+.gallery-collection li .inner{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    z-index: 1;
+}
+
+.gallery-collection li .inner .txt{
+    width: 100%;
+}
+
+.gallery-collection li .inner .txt h3{
+    font-size: 2rem;
+    color: white;
+    padding-top: 70px;
+    margin-bottom: 40px;
+    transition: .5s;
+}
+
+.gallery-collection li .inner .txt h3::after{
+    content: '';
+    display: block;
+    width: 30%;
+    border-bottom: 1px solid rgb(161, 161, 161);
+    transition: .5s;
+}
+
+.gallery-collection li:hover{
+    opacity: 1;
+}
+
+.gallery-collection li:hover .inner .txt h3{
+    font-size: 5vw;
+}
+
+
+
+.gallery-collection li:hover .inner .txt h3::after{
+    width: 70%;
+    border-bottom: 1px solid white;
+}
+
+
+
+.gallery-collection li .inner .txt p{
+    color: white;
+    font-size: 14px;
+}
+
+.gallery-collection li figure{
+    width: 100%;
+    height: 30%;
+}
+
+.gallery-collection li figure video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.popup{
+    position: absolute;
+    top: 0;
+    /* display: none; */
+    width: 100vw;
+    height: 100vh;
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    padding: 20vh 7vw 14vh 20vw;
+    left: -100vw;
+    transition: all .5;
+    z-index: 10;
+}   
+
+.popup.on{
+    left: 0;
+
+}
+
+.popup .txt{
+    flex: 0 1 25%;
+    height: 100%;
+}
+
+.popup .txt h2{
+    font-size: 5rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.popup .txt p{
+    font-size: 1.5rem;
+    margin-bottom: 60px;
+    color: #777;
+}
+
+.popup .txt button{
+    font-size: 1.8rem;
+    background-color: transparent;
+    border: none;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.popup .txt button:hover{
+    text-shadow: 0 0 20px white;
+}
+
+.popup figure video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mail{
+    width: 20%;
+    height: 50%;
+    margin: 12% 0 0 14%;
+    background-color: white;
+    text-align: center;
+    padding-top: 1px;
+    position: fixed; 
+    z-index: 1; 
+}
+.film{
+    width: 90%;
+    height: 80%;
+    margin: 5% auto;
+    background-color: rgb(207, 207, 207);
+}
+
+.lastname{
+    font-size: 3rem;
+    text-align: left;
+    position: relative;
+    top: 80px;
+    padding-left: 19%;
+    font-family: 'Freesentation-9Black';
+}
+
+.lastbye{
+    position: relative;
+    top: 70px;
+    text-align: left;
+    padding-left: 20%;
+    padding-top: 5%;
+    font-size: 1.5rem;
+    font-family: 'Freesentation-9Black';
+    color: #444444;
+}
+
+.email{
+    position: relative;
+    top: 80px;
+    text-align: left;
+    padding-left: 20%;
+    padding-top: 5%;
+    font-size: 1.5rem;
+    color: #444444;
+}
+
+
+
+.kakao:hover{
+    width: 260px;
+    height: 260px;
+    top: -110px;
+    left: 43px;
+    background: url(../img/qr.png)center/cover;
+    transition: 1s;
+    animation: none;
+}
+
+.kakao{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 100px;
+    left: 65px;
+    background: url(../img/kakao.png)center/cover;
+    border-radius: 10%;
+    transition: 1s;
+    animation: rotateKakao 2s infinite;
+    box-shadow: 0 0 15px #fff67d;
+}
+@keyframes rotateKakao {
+    0% {
+      transform: rotate(10deg);
+    }
+    
+    50% {
+      transform: rotate(-10deg);
+    }
+   
+    100% {
+      transform: rotate(10deg);
+    }
+  }
+
+
+/* 클립패스 */
+.circle {
+    width: 900px; /* 원의 너비 */
+    height: 900px; /* 원의 높이 */
+    clip-path: circle(50% at 50% 50%);
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    top: 60px;
+}
+
+.circle .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%; /* 배경 이미지를 두 배로 넓혀서 스크롤 효과를 만듭니다 */
+    height: 100%;
+    background-image: url('../img/polar.jpg'); /* 배경 이미지 경로 */
+    animation: scroll 30s linear infinite;
+    opacity: .5;
+}
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0); /* 초기 위치 */
+    }
+    100% {
+        transform: translateX(-50%); /* 왼쪽으로 이동하여 스크롤 효과를 줍니다 */
+    }
+}
+
+#slide5{
+    background-color: rgb(46, 46, 46);
+}
